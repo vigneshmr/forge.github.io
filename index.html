@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forge — Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #FBFBFB;
+    --text: #11181C;
+    --muted: #5B6770;
+    --accent: #0069E4;
+    --card: #FFFFFF;
+    --border: #ECECEC;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0B0D0F;
+      --text: #F2F4F5;
+      --muted: #9BA5AC;
+      --accent: #4097FD;
+      --card: #16191C;
+      --border: #24282B;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 20px 80px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 36px;
+  }
+  header img {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  }
+  header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  header p {
+    margin: 2px 0 0;
+    color: var(--muted);
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 19px;
+    margin: 40px 0 12px;
+  }
+  p { font-size: 16px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; font-size: 16px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin-top: 14px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .faq dt {
+    font-weight: 600;
+    margin-top: 16px;
+  }
+  .faq dd {
+    margin: 4px 0 0;
+    color: var(--muted);
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="images/icon.png" alt="Forge app icon">
+      <div>
+        <h1>Forge</h1>
+        <p>Build habits that stick.</p>
+      </div>
+    </header>
+
+    <p>
+      Forge is a simple, focused activity tracker built around one idea: consistency compounds.
+      Set up the routines you want to build, check them off day by day, and watch your progress
+      take shape — with streaks, and a clean Trends view to see it all at a glance.
+    </p>
+
+    <h2>Features</h2>
+    <ul>
+      <li>Track daily, recurring activities with custom schedules</li>
+      <li>Build and maintain streaks — only scheduled days count</li>
+      <li>Visualize progress in Day, Week, and Month trend views</li>
+      <li>Reorder and edit activities with a simple drag-and-drop list</li>
+      <li>No ads, no social feed, no clutter</li>
+    </ul>
+
+    <h2>Support</h2>
+    <div class="card">
+      <p>
+        Having trouble with Forge, or have feedback or a feature request? Reach out and we'll get
+        back to you as soon as we can.
+      </p>
+      <p>Open an issue on <a href="https://github.com/vigneshmr/forge.github.io/issues">GitHub</a> and we'll get back to you as soon as we can.</p>
+    </div>
+
+    <h2>Frequently asked questions</h2>
+    <dl class="faq">
+      <dt>Is my data backed up?</dt>
+      <dd>Forge stores your data on your device and includes it in your regular iCloud/iTunes device backups.</dd>
+
+      <dt>Does Forge require an account or internet connection?</dt>
+      <dd>No — Forge works fully offline and doesn't require a sign-in.</dd>
+
+      <dt>How do streaks work?</dt>
+      <dd>A streak only counts days an activity is actually scheduled, so a planned day off never breaks your streak.</dd>
+    </dl>
+
+    <footer>
+      &copy; 2026 Forge. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
